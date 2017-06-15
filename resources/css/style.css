@@ -1,0 +1,99 @@
+/***** General *****/
+html {
+  font-family: "Oxygen", Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  background-color: #e9eaea;
+}
+
+/***** header *****/
+header {
+  width: 100%;
+  display: flex;
+  background-color: DarkSlateGrey;
+  color: white;
+  align-items: center;
+  padding-left: 2rem;
+  text-align: right;
+}
+
+header img {
+  height: 5rem;
+  padding: 1rem;
+  border-radius: 60px;
+}
+
+header h3 {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+}
+/* menu navigation */
+nav {
+  width: 100%;
+  text-align: : right;
+  padding-right: 5rem;
+}
+
+nav li {
+  padding: 1rem;
+  display: inline;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+/***** main section *****/
+.main {
+  padding-left: 1rem;
+}
+
+/* project item */
+#project {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 20%;
+  margin: 2rem;
+  border: 2px solid;
+}
+
+.item img {
+  height: 8rem;
+  padding: 2rem;
+
+}
+.item:last-child {
+   width: 30%;
+}
+
+.item h3 {
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+}
+/***** bio *****/
+#about {
+  padding-left: 1rem;
+}
+
+/***** footer *****/
+footer {
+  display: flex;
+  flex-flow: column;
+  background-color: DarkSlateGrey;
+  color: white;
+  font-weight: 200;
+  margin-top: 4rem;
+  padding: 1rem;
+}
